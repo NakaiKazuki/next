@@ -11,4 +11,4 @@ services:
       - 3001:3001
     tty: true
     user: "1000:1000"
-    command: zsh -c 'yarn install && /bin/zsh'
+    command: zsh -c 'pnpm i && /bin/zsh'
