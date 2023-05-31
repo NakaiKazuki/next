@@ -1,0 +1,1 @@
+export type TAxiosPost = <T, R>(url: string, data: T) => Promise<R>;
