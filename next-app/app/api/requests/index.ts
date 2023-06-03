@@ -1,4 +1,4 @@
-import { axiosPost } from "../helpers";
+import { axiosPost } from "../../helpers";
 import { FieldValues } from "react-hook-form";
 
 export const postRegiser = (data: FieldValues): Promise<void> =>
