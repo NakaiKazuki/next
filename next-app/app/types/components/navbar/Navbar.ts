@@ -1,5 +1,4 @@
-import { User } from "@prisma/client";
-
+import { TSafeUser } from "../..";
 export interface INavbarProps {
-  currentUser?: User | null;
+  currentUser?: TSafeUser | null;
 }

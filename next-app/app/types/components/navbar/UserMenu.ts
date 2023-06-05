@@ -1,5 +1,5 @@
-import { User } from "@prisma/client";
+import { TSafeUser } from "../..";
 
 export interface IUserMenuProps {
-  currentUser?: User | null;
+  currentUser?: TSafeUser | null;
 }
