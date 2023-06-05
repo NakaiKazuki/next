@@ -8,6 +8,7 @@ import Container from "../Container";
 import Logo from "./Logo";
 import Search from "./Search";
 import UserMenu from "./UserMenu";
+import Categories from "./Categories";
 
 const Navbar: FC<IProps> = ({
   currentUser
@@ -23,6 +24,7 @@ const Navbar: FC<IProps> = ({
           </div>
         </Container>
       </div>
+      <Categories />
     </div>
   );
 };
