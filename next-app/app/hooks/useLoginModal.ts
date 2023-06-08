@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { IModalStore } from "../types/hooks/useRegisterModal";
+import { IModalStore } from "../types/hooks/modalStore";
 
 const useLoginModal = create<IModalStore>((set) => ({
   isOpen: false,

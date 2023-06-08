@@ -8,7 +8,7 @@ export interface IModalProps {
   body?: ReactElement;
   footer?: ReactElement;
   actionLabel: string;
-  disabled: boolean;
+  disabled?: boolean;
   secondaryAction?: () => void;
   secondaryActionLabel?: string;
 }
